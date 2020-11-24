@@ -1,0 +1,10 @@
+body {
+  margin-top: $header-height;
+  color: $color-text;
+  background-color: $color-secondary;
+  font-family: $body-font;
+
+  @include media($min-md) {
+    margin-top: 0;
+  }
+}

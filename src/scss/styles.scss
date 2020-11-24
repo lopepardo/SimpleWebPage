@@ -1,0 +1,20 @@
+// Establecimiento de varibles, funciones (matematicas) y mixins
+@import "01-config/mixins";
+@import "01-config/variables";
+@import "01-config/funtions";
+
+// Estilos base y selectores sin clases o id
+@import "02-base/resets";
+@import "02-base/typography";
+@import "02-base/body";
+@import "02-base/animations";
+
+// Componentes reutilizable
+@import "03-components/button";
+
+// Estilos relacionados con el diseño del proyecto
+@import "04-layout/layout";
+
+// Estilos relacionados con el diseño de paginas individuales
+@import "05-pages/nav";
+@import "05-pages/home";

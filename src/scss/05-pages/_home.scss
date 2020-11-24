@@ -1,0 +1,65 @@
+.home {
+  height: calc(100vh - 3rem);
+  @include media($min-md) {
+    height: 100vh;
+  }
+
+  &__data {
+    padding-top: 2rem;
+    text-align: center;
+    @include media($min-md) {
+      padding-top: 0;
+      text-align: initial;
+      align-self: center;
+    }
+  }
+
+  &__title {
+    margin-bottom: 0.5rem;
+    color: $color-first;
+    font-size: $h1-mobile-font-size;
+    @include media($min-md) {
+      font-size: $h1-desktop-font-size;
+    }
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: $h3-mobile-font-size;
+    @include media($min-md) {
+      font-size: $h3-desktop-font-size;
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    text-align: initial;
+  }
+
+  &__social-name {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    border-left: 1px solid $color-text;
+    margin-right: 0.5rem;
+    padding: 1rem 0.2rem;
+    font-size: $small-font-size;
+  }
+
+  &__social-icon {
+    margin-right: 1rem;
+    color: $color-text;
+    z-index: $z-back;
+    @include media($min-md) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__img {
+    padding: 2rem;
+    @include media($min-md) {
+      align-self: center;
+    }
+  }
+}

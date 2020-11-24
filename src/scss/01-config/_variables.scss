@@ -1,0 +1,37 @@
+/* Colors */
+$color-first: #ea4c89;
+$color-secondary: #1d2063;
+$color-text: #fff;
+
+/* Layout */
+$header-height: 3rem;
+
+/* Fonts */
+$heading-font: "Raleway";
+$body-font: "Open Sans";
+$h1-mobile-font-size: 2rem;
+$h3-mobile-font-size: 1rem;
+$h1-desktop-font-size: 3.5rem;
+$h3-desktop-font-size: 1.25rem;
+$small-font-size: 0.8125rem;
+
+/* z-index */
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+/* Breakpoints */
+$sm: 420px;
+
+$min-sm: 421px;
+$max-sm: 767px;
+
+$min-md: 768px;
+$max-md: 1023px;
+
+$min-lg: 1024px;
+$max-lg: 1365px;
+
+$hg: 1366px;
